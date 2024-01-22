@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class armstrong
+{
+ public static void main(String[]args)
+{
+ Scanner input=new Scanner(System.in);
+ System.out.print("enter a number:");
+ int n=input.nextInt();
+ int sum=0,r;
+ int n1=n;
+ while(n1!=0)
+{
+ r=n1%10;
+ sum=sum+(r*r*r);
+ n1=n1/10;
+}
+ if(n==sum)
+ System.out.print("it is a armstrong number");
+ else
+ System.out.print("it is not a armstrong number");
+}
+}

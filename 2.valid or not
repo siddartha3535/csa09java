@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class valid
+{
+public static void main(String[]args)
+{
+boolean result;
+Scanner input=new Scanner(System.in);
+System.out.print("\n enter String1 value:");
+String s1=input.nextLine();
+System.out.print("\n enter String2 value:");
+String s2=input.nextLine();
+result=s1.equals(s2);
+if(result=true)
+{
+ System.out.print("it is a valid");
+}
+ else
+{
+  System.out.print("it is not valid");
+ }
+}
+}

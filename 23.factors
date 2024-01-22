@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class facto
+{
+ public static void main(String[]args)
+{
+ Scanner input=new Scanner(System.in);
+ System.out.print("enter a number:");
+ int n=input.nextInt();
+ int factors=0;
+ for(int i=1;i<=n;i++)
+ {
+   if(n%i==0)
+   factors++;
+ }
+  System.out.print(factors);
+}
+}

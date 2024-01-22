@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class squareandcube
+{
+ public static void main(String[]args)
+ {
+  Scanner input=new Scanner(System.in);
+  System.out.print("enter a value:");
+  float n=input.nextFloat();
+  System.out.print("square:"+(n*n));
+  System.out.print("cube:"+(n*n*n));
+ }
+}
+  
